@@ -28,7 +28,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head: {
+    title: 'Pagina de inicio',
+    meta: [
+      {
+        hid: 'description', 
+        name: 'description', 
+        content: 'Esta es la descripcion de mi pagina de inicio'
+      }
+    ]
+  }
+}
 </script>
 
 <style>
