@@ -2,9 +2,9 @@
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-3" v-for="(item, index) in articulos" :key="index">
-          <h2>
-              <nuxt-link :to="`/blog/${item.id}`">{{ item.titulo }}</nuxt-link>
-          </h2>
+        <h2>
+          <nuxt-link :to="`/blog/${item.id}`">{{ item.titulo }}</nuxt-link>
+        </h2>
       </div>
     </div>
   </div>
